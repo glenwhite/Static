@@ -1,7 +1,10 @@
-@import "normalize";
+@import "normalize3";
 @import "bits";
 
-body {background: url(../images/bg.png);}
+body {
+  background: url(../images/bg.png);
+  @include font-stack-body;
+}
 
 // ---------------------------------------------- HEADER
 .logo {

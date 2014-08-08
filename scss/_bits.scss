@@ -1,7 +1,23 @@
 $orange: #e18728;
-$gray: #444444;
+$gray: #666666;
 $lightGray: #d6d5d5;
 $mid-gray:#AFAFAF;
 
 $offset: 6px;
 $padding: 20px;
+
+@mixin font-stack-brand {
+  font-family: "inconsolata",sans-serif;
+}
+
+@mixin font-stack-headers {
+  font-family: "ronnia-condensed",sans-serif;
+}
+
+@mixin font-stack-body {
+  font-family: "ff-meta-web-pro",sans-serif;
+}
+
+@mixin font-stack-code {
+  font-family: "inconsolata",sans-serif;
+}
